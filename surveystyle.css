@@ -1,0 +1,22 @@
+h1{
+
+     color: rgb(238,130,238);
+  }
+
+p{
+ font-family: fantasy;
+}
+
+.question{
+
+padding: 10px 1px;
+color:rgb(106,90,205);
+
+
+}
+
+footer{
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+}
