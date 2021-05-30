@@ -12,6 +12,13 @@ var products = [
 
 	},
 	{
+		name: "chocolate",
+		lactoseFree: false,
+		nutFree: false,
+		price: 2.25,
+		organic: false
+	},
+	{
 		name: "bread",
 		lactoseFree: true,
 		nutFree: true,
@@ -19,39 +26,32 @@ var products = [
 		organic: false
 	},
 	{
-		name: "salmon",
+		name: "pistachios",
+		lactoseFree: true,
+		nutFree: false,
+		price: 4.99,
+		organic: false
+	},
+	{
+		name: "orange juice",
 		lactoseFree: true,
 		nutFree: true,
-		price: 10.00,
+		price: 5.99,
 		organic: false
 	},
 	{
-		name: "milk",
-		lactoseFree: false,
-		nutFree: true,
-		price: 12.00,
-		organic: false
-	},
-	{
-		name: "chocolate",
-		lactoseFree: false,
+		name: "peanuts",
+		lactoseFree: true,
 		nutFree: false,
-		price: 2.20,
+		price: 7.15,
 		organic: false
 	},
 	{
 		name: "apples",
 		lactoseFree: true,
 		nutFree: true,
-		price: 7.30,
+		price: 7.99,
 		organic: true
-	},
-	{
-		name: "orange juice",
-		lactoseFree: true,
-		nutFree: true,
-		price: 5.00,
-		organic: false
 	},
 	{
 		name: "eggs",
@@ -61,19 +61,25 @@ var products = [
 		organic: false
 	},
 	{
-		name: "peanuts",
+		name: "salmon",
 		lactoseFree: true,
-		nutFree: false,
-		price: 7.00,
+		nutFree: true,
+		price: 10.25,
 		organic: false
 	},
 	{
-		name: "pistachios",
-		lactoseFree: true,
-		nutFree: false,
-		price: 4.00,
+		name: "milk",
+		lactoseFree: false,
+		nutFree: true,
+		price: 12.99,
 		organic: false
 	}
+
+
+
+
+
+
 
 
 ];
