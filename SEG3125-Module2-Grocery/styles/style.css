@@ -42,15 +42,41 @@
   color: #D4AF37;
   font-family: franklin gothic medium;
   font-size: 150%;
+  text-align: center;
 }
 
 .quote{
   font-style: italic;
+  text-align: center;
+
 }
 
+
+.image{
+  text-align: center;
+}
+.bottomimage{
+  text-align: center;
+}
+
+p{
+
+
+}
+h3{
+  color: #D4AF37;
+}
 
 footer{
   font-size: 13px;
   font-style: italic;
   text-align: center;
+  color: #D4AF37;
+}
+
+
+body{
+
+  font-size: 130%;
+  font-family: calibri;
 }
