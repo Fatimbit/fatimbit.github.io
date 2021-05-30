@@ -35,3 +35,22 @@
   border: 1px solid #ccc;
   border-top: none;
 }
+
+
+
+.title{
+  color: #D4AF37;
+  font-family: franklin gothic medium;
+  font-size: 150%;
+}
+
+.quote{
+  font-style: italic;
+}
+
+
+footer{
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+}

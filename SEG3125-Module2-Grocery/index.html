@@ -7,6 +7,14 @@
 
 <body>
 
+	<div class="title">
+		Stardust Groceries Inc. ✩
+	</div>
+
+	<div class="quote">
+		Our deals are out of this world!
+	</div>
+
 <!-- Tab links, each one with an onclick event associated with it -->
 <div class="tab">
   <button class="tablinks" onclick="openInfo(event, 'Client')">Client</button>
@@ -17,14 +25,23 @@
 <!-- Tab content -->
 <div id="Client" class="tabcontent">
   <h3>Client Information</h3>
-  <p>Tell us a bit about you.</p>
+  <p>Tell us a bit about you. Indicate if you have any food restrictions so we can help you find what you are looking for.</p>
+
+
 	Choose a Category:
 	<select id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')">
 	<option value=""></option>
-	<option value="Vegetarian">Vegetarian</option>
-    <option value="GlutenFree">GlutenFree</option>
+	<option value="lactoseintolerant">Lactose Intolerant</option>
+    <option value="nutallergy">Nut Allergy</option>
+		<option value="organic">Organic Only</option>
     <option value="None">None</option>
-	</select>
+	</select><br></br>
+
+
+
+
+
+
 </div>
 
 <div id="Products" class="tabcontent">
@@ -47,4 +64,10 @@
 <script src="scripts/main.js"></script>
 
 </body>
+
+
+
+<footer>
+  <p> Website designed by: ✩ Fatimah V. ✩  </p>
+</footer>
 </html>
