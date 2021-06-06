@@ -40,6 +40,20 @@ var products = [
 		organic: false
 	},
 	{
+		name: "Carrots",
+		lactoseFree: true,
+		nutFree: true,
+		price: 5.75,
+		organic: true
+	},
+	{
+		name: "Lettuce",
+		lactoseFree: true,
+		nutFree: true,
+		price: 6.75,
+		organic: true
+	},
+	{
 		name: "Peanuts",
 		lactoseFree: true,
 		nutFree: false,
@@ -54,11 +68,25 @@ var products = [
 		organic: true
 	},
 	{
+		name: "Tomatoes",
+		lactoseFree: true,
+		nutFree: true,
+		price: 7.99,
+		organic: true
+	},
+	{
 		name: "Eggs",
 		lactoseFree: true,
 		nutFree: true,
 		price: 7.99,
 		organic: false
+	},
+	{
+		name: "Potatoes",
+		lactoseFree: true,
+		nutFree: true,
+		price: 9.99,
+		organic: true
 	},
 	{
 		name: "Salmon",
