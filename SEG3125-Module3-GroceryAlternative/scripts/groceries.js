@@ -4,7 +4,7 @@
 
 var products = [
 	{
-		name: "broccoli",
+		name: "Broccoli",
 		lactoseFree: true,
 		nutFree: true,
 		price: 1.99,
@@ -12,63 +12,63 @@ var products = [
 
 	},
 	{
-		name: "chocolate",
+		name: "Chocolate",
 		lactoseFree: false,
 		nutFree: false,
 		price: 2.25,
 		organic: false
 	},
 	{
-		name: "bread",
+		name: "Bread",
 		lactoseFree: true,
 		nutFree: true,
 		price: 2.35,
 		organic: false
 	},
 	{
-		name: "pistachios",
+		name: "Pistachios",
 		lactoseFree: true,
 		nutFree: false,
 		price: 4.99,
 		organic: false
 	},
 	{
-		name: "orange juice",
+		name: "Orange juice",
 		lactoseFree: true,
 		nutFree: true,
 		price: 5.99,
 		organic: false
 	},
 	{
-		name: "peanuts",
+		name: "Peanuts",
 		lactoseFree: true,
 		nutFree: false,
 		price: 7.15,
 		organic: false
 	},
 	{
-		name: "apples",
+		name: "Apples",
 		lactoseFree: true,
 		nutFree: true,
 		price: 7.99,
 		organic: true
 	},
 	{
-		name: "eggs",
+		name: "Eggs",
 		lactoseFree: true,
 		nutFree: true,
 		price: 7.99,
 		organic: false
 	},
 	{
-		name: "salmon",
+		name: "Salmon",
 		lactoseFree: true,
 		nutFree: true,
 		price: 10.25,
 		organic: false
 	},
 	{
-		name: "milk",
+		name: "Milk",
 		lactoseFree: false,
 		nutFree: true,
 		price: 12.99,
