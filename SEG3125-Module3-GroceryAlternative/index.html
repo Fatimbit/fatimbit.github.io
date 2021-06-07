@@ -14,8 +14,9 @@
 	<div class="quote">
 		Our deals are out of this world!
 	</div>
-	<div class="image"><img src="photo2.png" alt=WELCOME width=45% height=305></div>
+	<div class="image"><img src="photo5.png" alt=WELCOME width=55% height=360></div>
 
+	<div class="explanation">Please select the Client tab to begin!</div>
 
 
 <!-- Tab links, each one with an onclick event associated with it -->
@@ -39,13 +40,29 @@
     <option value="nutallergy">Nut Allergy</option>
 		<option value="organic">Organic Only</option>
     <option value="None">None</option>
-	</select><br></br>
+	</select>
+
+<!--	<table id="selectionClient">
+	<input type="checkbox" class="checkbox" /> Lactose Intolerant <br />
+	<input type="checkbox" class="checkbox"  /> Nut Allergy <br />
+	<input type="checkbox" class="checkbox" /> Organic Only <br />
+	<input type="checkbox" class="checkbox"  /> None <br />
+</table>-->
+
+	<br />
+
+
+
+	<br></br>
 
 
 
 
 
-
+ <button id="next1" type="button" class="block" onclick="openInfo(event, 'Products')">
+	 Next >>
+ </button>
+ <br></br>
 </div>
 
 <div id="Products" class="tabcontent">
@@ -54,9 +71,16 @@
 	 <p>Choose items to buy:</p>
 	 <div id="displayProduct"></div>
 	 <br></br>
-	 <button id="addCart" type="button" class="block" onclick="selectedItems()">
+	 <button id="addCart" type="button" class="block" onclick="selectedItems(); alert('Items were successfully added to Cart');">
 		Add to Cart
 	</button>
+
+
+	<br></br>
+	 <button id="next2" type="button" class="block" onclick="openInfo(event, 'Cart')">
+		 Next >>
+	 </button>
+	 <br></br>
 </div>
 
 <div id="Cart" class="tabcontent">
