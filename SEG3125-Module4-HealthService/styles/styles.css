@@ -8,3 +8,16 @@ p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
+.navbar-custom {
+         background-color: #A6C5E8;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.header{
+  left: 50%;
+}
