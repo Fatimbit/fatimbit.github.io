@@ -7,6 +7,9 @@ p{
 .btn{
     margin-top: 10px;
     margin-bottom: 10px;
+    background-color: #A6C5E8;
+    color: black;
+    outline-color: black;
 }
 
 
@@ -16,8 +19,13 @@ p{
 
 body{
   font-family: sans-serif;
+  background-color: #DBEDFE;
 }
 
 .header{
   left: 50%;
+}
+
+.table-custom{
+  background-color: #BDB3BF;
 }
