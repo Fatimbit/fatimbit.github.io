@@ -4,6 +4,8 @@ td{
 p{
     font-size: 20px;
 }
+
+
 .btn{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -18,7 +20,7 @@ p{
 }
 
 body{
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #DBEDFE;
 }
 
@@ -28,4 +30,20 @@ body{
 
 .table-custom{
   background-color: #BDB3BF;
+}
+
+
+.title{
+font-family: 'Fira Sans', sans-serif;
+}
+footer{
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+}
+
+.accordion-body{
+  text-align: left;
+  font-style: italic;
+  font-size: 80%;
 }
