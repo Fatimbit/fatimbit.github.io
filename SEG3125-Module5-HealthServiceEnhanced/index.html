@@ -1,0 +1,287 @@
+<!doctype html>
+<!-- Here is a link to the code the documents this code is based on
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+This will help you get started with your code!
+-->
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Module 4 Lab</title>
+</head>
+<body>
+<!--
+I store all of the page information in a container,
+Many websites will use what is called CSS grid layouts, where you will have a header, body, footer and both sides used for ads or other information
+-->
+<div class = "container-lg">
+
+    <!--
+    Most websites now feature what is called a NavBar.
+    The example I give is quite simple with a logo and some text, but you can use it for many navigational patterns
+    https://getbootstrap.com/docs/5.0/components/navbar/
+    -->
+
+    <nav class="navbar navbar-custom text-black p-3 my-3 ">
+       <h1 class="title"; style="text-align: center"><img src="images/logo.PNG" width="130" height="130"> Welcome to Catfish Veterinary Clinic</h1>
+    </nav>
+
+    <div class=" p-3 my-3 border bg-light">
+        <h1 class="title"> About Us</h1>
+        <p class="p-4 my-3" style="font-size: 25px">We are a small clinic located at 800 King Edward Avenue, Ottawa, Ontario. </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.498932966033!2d-75.6809612846684!3d45.41944284445025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05a74fac7013%3A0x347e8ee96695c601!2sUniversity%20of%20Ottawa%20Faculty%20of%20Engineering!5e0!3m2!1sen!2sca!4v1623620842558!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br></br>
+        <p style="font-size: 25px; padding-left: 1.5rem">We are dedicated to providing the <strong>best</strong> care to our customers. </p>
+    </div>
+    <!--
+    Tables are one of many ways to organize information easily.
+    It is a good way to list of prices, or services in a business website
+    https://getbootstrap.com/docs/5.0/content/tables/
+    -->
+    <br></br>
+    <h1 class="title">Our Services</h1>
+    <table class="table table-info table-hover">
+        <thead>
+            <tr class="table-primary">
+                <th scope="col"><h2 class="title">Service</h2></th>
+                <th scope="col"><h2 class="title">Description</h2></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-light">
+                <td>Check-Ups       &nbsp;&nbsp;&nbsp;              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Select Service
+                                    </button></td>
+                <td>Book a check-up with us today to make sure that your loved ones are doing okay. </td>
+            </tr>
+            <tr class="table-light">
+                <td>Dental Work        &nbsp;             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Select Service
+                                    </button></td>
+                <td>We provide high-quality dental care and dental products.</td>
+            </tr>
+            <tr class="table-light">
+                <td>Diagnostics     &nbsp;                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Select Service
+                                    </button></td>
+                <td>Our team is available for a quick and accurate diagnosis, either in our clinic or at home.</td>
+            </tr>
+            <tr class="table-light">
+                <td>Surgery   &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp; &nbsp;       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Select Service
+                  </button></td>
+                <td>You can trust our team of veterinary experts to provide surgeries with high care.</td>
+            </tr>
+            <tr class="table-light">
+                <td>Vaccinations                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Select Service
+                                    </button></td>
+                <td>We provide a wide variety of essential and helpful vaccinations to protect your pets.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+      <!--
+    <h1>Here is an alert!</h1>      -->
+    <!-- Alerts are an easy way to grab the users attention, this page goes into more detail
+    https://getbootstrap.com/docs/5.0/components/alerts/
+    -->
+    <!--
+    <p>This indicated something important in the page</p>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Yikes!</strong> Perhaps you left one of the fields empty for this to appear?
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <h1>Button States</h1>      -->
+    <!--
+    Buttons can be used for submitting forms, triggering events among many other things.
+    https://getbootstrap.com/docs/5.0/components/buttons/
+    -->
+    <!--
+    <button type="button" class="btn btn-warning">Primary Button</button>
+    <button type="button" class="btn btn-warning active">Active Button</button>
+    <button type="button" class="btn btn-warning" disabled>Disabled Button</button>
+    -->
+
+    <br></br>
+    <h1 class="title">Book Appointment</h1>
+
+    <!-- Button trigger modal
+    We use the same button code from above, but now we can trigger a modal to appear.
+    The bootstrap tutorial includes many different types of modals that you can explore
+    https://getbootstrap.com/docs/5.0/components/modal/
+    -->
+    <p> Click below to begin scheduling your appointment.</p>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Book Appointment
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Book Appointment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Please select a date from the following:
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Monday at 1 PM
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Tuesday at 1 PM
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Wednesday at 1 PM
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Thursday at 1 PM
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Friday at 1 PM
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Saturday at 1 PM
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Sunday at 1 PM
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards are quite useful when building a website. They are a useful way to organize information.
+    They can be organized using a CSS grid or other layout options.
+    https://getbootstrap.com/docs/5.0/components/card/
+    -->
+
+    <br></br>
+    <h1 class="title">Meet the Experts!</h1>
+    <div class="row justify-content-around">
+        <div class="card" style="width: 18rem;">
+            <img src="images/doctor.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Jane Doe is our certified veterinary specialist. She manages a team of surgeons with her expertise.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="images/vet2.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Zakiya Choudhry excells at vaccinations and diagnostics. She helps facilitate the North American Veterinary Licensing Examination. </p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="images/vet3.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Robert Downey Jr. won the Veterinary Association Award for fastest successful heart surgery.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    We can also use buttons to expand some hidden options
+    https://getbootstrap.com/docs/5.0/components/collapse/
+    -->
+    <br></br>
+    <h1 class="title">Our Reviews</h1>
+
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Learn More
+    </button>
+
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            Would you like to submit a review? Please contact us at catfish.v.c@fakeemail.com for a chance to be featued on our website!
+        </div>
+    </div>
+
+    <!-- This example is using what is called an accordian, this is one of three examples
+    https://getbootstrap.com/docs/5.0/components/accordion/
+    -->
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    "Amazing service! The staff was welcoming, professional, and very helpful. They were able to diagnose my dog and provide me with the information I needed extremely quickly!"
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">-Amanda Apple (April 1, 2017)</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    "Most wonderful veterinary clinic I have ever been to. Would definitely recommend."
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">-Isa Hakim (May 16, 2020)</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    "The staff are very knowledgable and easy to talk to. They made me feel very reassured and even gave me nutrition tips for my cat after completing his surgery."
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">-Rashida Saleek (October 20, 2021)</div>
+            </div>
+        </div>
+    </div>
+
+    <br></br>
+    <h1 class="title">Contact Information</h1>
+    <p> Enter your name and contact information below. </o> <br></br>
+
+<textarea rows="6" cols="70"></textarea>
+<br></br>
+<button type="button" class="btn">Submit Information</button>
+
+<footer>
+  <p> </p>
+</footer>
+
+</div>
+<!-- here we input our javascript helper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
