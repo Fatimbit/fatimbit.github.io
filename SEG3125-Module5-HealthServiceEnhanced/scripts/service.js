@@ -20,6 +20,20 @@ function validatePhone(txtPhone) {
 }
 
 
+
+function validateCard(txtCard) {
+  var a = document.getElementById(txtCard).value;
+  var filter=/(?:\d{4})([ ])\d{4}\1\d{4}\1\d{4}/;
+    if (filter.test(a)) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+
+
 // Using date restrictions on datepicker
 // Document of datepicker is here: https://api.jqueryui.com/datepicker/
 // The following code shows how to set specific dates to exclude, as well as Sundays (Day 0)
@@ -51,6 +65,20 @@ $(document).ready(function(){
         }
         else {
             $("#phone").removeClass("error");
+        }
+    });
+
+
+
+
+    $("#debit").on("change", function(){
+        if (!validateCard("debit")){
+            alert("Wrong format for card number. \nIt must be in the format xxxx xxxx xxxx xxxx, where each x is a number.");
+            $("#debit").val("xxxx xxxx xxxx xxxx");
+            $("#debit").addClass("error");
+        }
+        else {
+            $("#debit").removeClass("error");
         }
     });
 
