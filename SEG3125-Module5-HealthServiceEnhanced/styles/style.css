@@ -1,0 +1,58 @@
+td{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}
+
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #A6C5E8;
+    color: black;
+    outline-color: black;
+}
+
+
+.navbar-custom {
+         background-color: #A6C5E8;
+}
+
+
+.navbar-navbarnew {
+         background-color: #A6C5E8;
+}
+
+.nav-link{
+  color: black;
+}
+
+body{
+
+  background-color: #DBEDFE;
+}
+
+.header{
+  left: 50%;
+}
+
+.table-custom{
+  background-color: #BDB3BF;
+}
+
+
+.title{
+font-family: 'Fira Sans', sans-serif;
+}
+footer{
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+}
+
+.accordion-body{
+  text-align: left;
+  font-style: italic;
+  font-size: 80%;
+}
