@@ -39,23 +39,26 @@
 <!-- to just jump to parts of the page. What I put as First/Second/Third here would -->
 <!-- be sections in your page. -->
 <nav class="navbar navbar-expand-md bg-custom navbar-navbarnew">
-    <a class="navbar-brand" href="#">CVC</a>
+    <a class="navbar-brand" href="#"><img src="images/caticon.png" alt="logo" style="width:30px;">  C.V.C</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#first"><img src="images/peigne.png" alt="logo" style="width:30px;">First</a>
+                <a class="nav-link" href="#first"><img src="images/icons8-about-30.png" alt="logo" style="width:30px;">  About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#second"><img src="images/tiger.png" alt="logo" style="width:30px;">Second</a>
+                <a class="nav-link" href="#second"><img src="images/icons8-veterinarian-48.png" alt="logo" style="width:30px;">  Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#third">Third</a>
+                <a class="nav-link" href="#third"><img src="images/icons8-team-30.png" alt="logo" style="width:30px;">  Experts</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#fourth">Fourth</a>
+                <a class="nav-link" href="#fourth"><img src="images/icons8-schedule-100.png" alt="logo" style="width:30px;">  Book Appointment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#fifth"><img src="images/icons8-card-payment-50.png" alt="logo" style="width:30px;">  Payment</a>
             </li>
         </ul>
     </div>
@@ -69,8 +72,8 @@
 </nav>
 
 <div class="container" id="first">
-  <h3><img src="images/peigne.png" alt="logo" style="width:40px;">First Item</h3>
-    <h1 class="title"> About Us</h1>
+  <br></br>
+  <h2><img src="images/icons8-about-30.png" alt="logo" style="width:40px;">  About Us</h2>
     <p class="p-4 my-3" style="font-size: 25px">We are a small clinic located at 800 King Edward Avenue, Ottawa, Ontario. </p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.498932966033!2d-75.6809612846684!3d45.41944284445025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05a74fac7013%3A0x347e8ee96695c601!2sUniversity%20of%20Ottawa%20Faculty%20of%20Engineering!5e0!3m2!1sen!2sca!4v1623620842558!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     <br></br>
@@ -97,10 +100,10 @@
 
 <!-- Just arbitrary divisions to see the link from the NavBar -->
 <!-- Also, notice the use of the icon repeated from the menu to add grouping -->
+<br></br>
 <div class="container" id="second">
-    <h3><img src="images/peigne.png" alt="logo" style="width:40px;">Second Item</h3>
+    <h2><img src="images/icons8-veterinarian-48.png" alt="logo" style="width:40px;">  Our Services</h2>
     <br></br>
-    <h1 class="title">Our Services</h1>
     <table class="table table-info table-hover">
         <thead>
             <tr class="table-primary">
@@ -133,9 +136,10 @@
     </table>
 </div>
 
+
+<br></br>
 <div class="container" id="third">
-  <h3><img src="images/peigne.png" alt="logo" style="width:40px;">Third Item</h3>
-  <h1 class="title">Meet the Experts!</h1>
+  <h2><img src="images/icons8-team-30.png" alt="logo" style="width:40px;">  Meet the Experts!</h2>
   <div class="row justify-content-around">
       <div class="card" style="width: 18rem;">
           <img src="images/doctor.jpg" class="card-img-top" alt="...">
@@ -160,12 +164,24 @@
 
 <!-- This section contains elements to be validated -->
 <!-- Refer to the JavaScript file, where JQuery is used to listen to those inputs using the ids -->
+<br></br>
 <div class="container" id="fourth">
-    <h3>Fourth Item</h3>
+    <h3><img src="images/icons8-schedule-100.png" alt="logo" style="width:40px;">  Book Appointment</h3>
     <p>Date: <input type="text" id="dateInput"></p>
     <p>Phone Number Example <input value="(1234)" type="text" id="phone"></p>
-    <p>Credit Card: <input type="text" id="debit" title="We ask for your credit card number in case of no-show, 20$ will be charged."></p>
 </div>
+
+<br></br>
+<div class="container" id="fifth">
+  <h3><img src="images/icons8-card-payment-50.png" alt="logo" style="width:40px;">  Payment</h3>
+        <p>Credit Card: <input type="text" id="debit" title="We ask for your credit card number in case of no-show, 20$ will be charged."></p>
+</div>
+
+
+
+
+
+
 
 </body>
 </html>
