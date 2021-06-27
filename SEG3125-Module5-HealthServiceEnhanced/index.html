@@ -55,10 +55,13 @@
                 <a class="nav-link" href="#third"><img src="images/icons8-team-30.png" alt="logo" style="width:30px;">  Experts</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#fourth"><img src="images/icons8-schedule-100.png" alt="logo" style="width:30px;">  Book Appointment</a>
+                <a class="nav-link" href="#fourth"><img src="images/icons8-schedule-100.png" alt="logo" style="width:30px;">  Schedule Appointment</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#fifth"><img src="images/icons8-card-payment-50.png" alt="logo" style="width:30px;">  Payment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sixth"><img src="images/icons8-task-completed-100.png" alt="logo" style="width:30px;">  Confirm Appointment</a>
             </li>
         </ul>
     </div>
@@ -166,7 +169,7 @@
 <!-- Refer to the JavaScript file, where JQuery is used to listen to those inputs using the ids -->
 <br></br>
 <div class="container" id="fourth">
-    <h3><img src="images/icons8-schedule-100.png" alt="logo" style="width:40px;">  Book Appointment</h3>
+    <h3><img src="images/icons8-schedule-100.png" alt="logo" style="width:40px;">  Schedule Appointment</h3>
     <p>Use the list below to select the expert you would prefer to handle your appointment:</p>
 
     <select name="expertSelect" id="expertSelect">
@@ -177,16 +180,50 @@
     </select>
 
     <br></br>
+
+    <p>Select which service(s) this appointment is for:</p>
+    <input type="checkbox" id="checkbox1" name="checkbox1" value="1">
+    <label for="checkbox1"> Check-Ups </label><br>
+    <input type="checkbox" id="checkbox2" name="checkbox2" value="2">
+    <label for="checkbox2"> Dental Work </label><br>
+    <input type="checkbox" id="checkbox3" name="checkbox3" value="3">
+    <label for="checkbox3"> Diagnostics </label><br>
+    <input type="checkbox" id="checkbox4" name="checkbox4" value="4">
+    <label for="checkbox1"> Surgery </label><br>
+    <input type="checkbox" id="checkbox5" name="checkbox5" value="5">
+    <label for="checkbox2"> Vaccinations </label><br>
+    <input type="checkbox" id="checkbox6" name="checkbox6" value="6">
+    <label for="checkbox2"> Other </label><br>
+
+
+    <br></br>
+
+
     <p>Date: <input type="text" id="dateInput"  title="Please enter a date for your appointment from the available times shown."></p>
     <p>Phone Number: <input value="(xxx)-xxx-xxxx" type="text" id="phone"  title="Please enter a valid phone number so we can contact you about your results."></p>
+
+
+
 </div>
 
 <br></br>
 <div class="container" id="fifth">
   <h3><img src="images/icons8-card-payment-50.png" alt="logo" style="width:40px;">  Payment</h3>
-        <p>Credit Card: <input type="text" id="debit" title="We ask for your credit card number in case of no-show, $20 will be charged."></p>
+      <p>Credit Card: <input type="text" id="debit" title="We ask for your credit card number in case of no-show, $20 will be charged."></p>
+
+
 </div>
 
+<br></br>
+
+<div class="container" id="sixth">
+  <h3><img src="images/icons8-task-completed-100.png" alt="logo" style="width:40px;">  Confirm Appointment</h3>
+  <br>
+<p>After scheduling an appointment and entering your payment information, please use the button below to finish booking your appointment.</p>
+<button type="button" class="btn" id="bookbtn">Book Appointment</button>
+
+
+</div>
 
 
 

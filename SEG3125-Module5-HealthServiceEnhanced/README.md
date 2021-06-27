@@ -8,6 +8,7 @@ This is using Bootstrap 5 as well as jQuery
 <a target="_blank" href="https://icons8.com/icon/60018/team">Team</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/pIc0zjvIlsbQ/veterinarian">Veterinarian</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 <a target="_blank" href="https://icons8.com/icon/3524/schedule">Schedule</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+<a target="_blank" href="https://icons8.com/icon/62901/task-completed">Task Completed</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions

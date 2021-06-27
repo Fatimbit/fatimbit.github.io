@@ -82,6 +82,35 @@ $(document).ready(function(){
         }
     });
 
+
+
+
+    $("#bookbtn").click(function(){
+            if (!validateCard("debit")){
+                alert("Wrong format for card number. \nIt must be in the format xxxx xxxx xxxx xxxx, where each x is a number.");
+                $("#debit").val("xxxx xxxx xxxx xxxx");
+                $("#debit").addClass("error");
+            }
+            else {
+                $("#debit").removeClass("error");
+            }
+
+            if (!validatePhone("phone")){
+                alert("Wrong format for phone number. \nIt must be in the format (xxx)-xxx-xxxx, where each x is a number.");
+                $("#phone").val("(xxx)-xxx-xxxx");
+                $("#phone").addClass("error");
+            }
+            else {
+                $("#phone").removeClass("error");
+            }
+
+            if(validatePhone("phone") && validateCard("debit")){
+              alert("Appointment has been successfully booked");
+            }
+        });
+
+
+
     // To change the style of the calender, look in jqueryui.com, under Themes, in the ThemeRoller Gallery
     // You can try different themes (the names are under the calendars) / This is Excite Bike
     // To use a different theme you must include its css in your HTML file.
