@@ -105,16 +105,35 @@ $(document).ready(function(){
             }
 
             if(validatePhone("phone") && validateCard("debit")){
-              alert("Appointment has been successfully booked");
+              var selected=document.getElementById("expertSelect");
+              var expertText=selected.options[selected.selectedIndex].text;
+              var dateSelected=document.getElementById("dateInput").value;
+              alert("Your appointment has been successfully booked with "+expertText+" on "+dateSelected);
             }
         });
 
 
 
+
+
+
+
+
+
+
+
+
+
     // To change the style of the calender, look in jqueryui.com, under Themes, in the ThemeRoller Gallery
-    // You can try different themes (the names are under the calendars) / This is Excite Bike
+    // You can try different themes (the names are under the calendars)
     // To use a different theme you must include its css in your HTML file.
-    // The one I included in my HTML is the Excite Bike, but you can try others
+    // The one I included in my HTML is cupertino
+
+    var dates = ["20/05/2021", "21/05/2021", "22/05/2021", "23/05/2021"];
+    function DisableDates(date){
+      var string=jQuery.datepicker.formatDate('dd/mm/yy', date);
+    return [dates.indexOf(string) == -1];
+    }
 
     // Also, here is a good tutorial for playing with the datepicker in https://webkul.com/blog/jquery-datepicker/
     // Datepicker is also documented as one of the widgets here: https://api.jqueryui.com/category/widgets/
