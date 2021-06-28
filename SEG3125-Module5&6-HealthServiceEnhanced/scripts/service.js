@@ -108,7 +108,8 @@ $(document).ready(function(){
               var selected=document.getElementById("expertSelect");
               var expertText=selected.options[selected.selectedIndex].text;
               var dateSelected=document.getElementById("dateInput").value;
-              alert("Your appointment has been successfully booked with "+expertText+" on "+dateSelected);
+              var timeSelected=document.getElementById("timeInput").value;
+              alert("Your appointment has been successfully booked with "+expertText+" on "+dateSelected+" at "+timeSelected);
             }
         });
 
@@ -129,11 +130,6 @@ $(document).ready(function(){
     // To use a different theme you must include its css in your HTML file.
     // The one I included in my HTML is cupertino
 
-    var dates = ["20/05/2021", "21/05/2021", "22/05/2021", "23/05/2021"];
-    function DisableDates(date){
-      var string=jQuery.datepicker.formatDate('dd/mm/yy', date);
-    return [dates.indexOf(string) == -1];
-    }
 
     // Also, here is a good tutorial for playing with the datepicker in https://webkul.com/blog/jquery-datepicker/
     // Datepicker is also documented as one of the widgets here: https://api.jqueryui.com/category/widgets/
@@ -144,8 +140,26 @@ $(document).ready(function(){
             minDate: new Date('06/01/2020'),
             maxDate: '+4M',
             // used to disable some dates
-            beforeShowDay: $.datepicker.noWeekends,
-            beforeShowDay: disableDates
+            beforeShowDay: function(date){
+              var day=date.getDay();
+
+              var selected=document.getElementById("expertSelect");
+              var expertText=selected.options[selected.selectedIndex].value;
+              if(expertText=="JD"){
+                return[(day !=0 && day !=6 && day!=1)];
+              }
+              if(expertText=="ZC"){
+                return[(day !=0 && day !=6 && day!=2)];
+              }
+              if(expertText=="RS"){
+                return[(day !=0 && day !=6 && day!=3)];
+              }
+
+              return[(day !=0 && day !=6)];
+
+
+            }
+
         }
     );
 
