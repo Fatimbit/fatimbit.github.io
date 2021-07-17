@@ -40,3 +40,27 @@
 .navbar{
   background-color: #A07068;
 }
+.footer{
+
+  font-style: italic;
+  background-color: #702820;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: right;
+}
+.instaId{
+  height: 25px;
+  width: 30px;
+  float: right;
+}
+.facebookId{
+  height: 25px;
+  width: 30px;
+  float: right;
+}
+.twitterId{
+  height: 25px;
+  width: 30px;
+  float: right;
+}
+
