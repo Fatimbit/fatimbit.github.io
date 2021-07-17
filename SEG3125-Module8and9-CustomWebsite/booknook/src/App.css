@@ -40,6 +40,13 @@
 .navbar{
   background-color: #A07068;
 }
+.bookphotoClass{
+  width: 100%;
+  height: auto;
+}
+
+
+
 .footer{
 
   font-style: italic;
@@ -47,6 +54,7 @@
   padding-top: 3px;
   padding-bottom: 3px;
   text-align: right;
+  color: white;
 }
 .instaId{
   height: 25px;
@@ -60,7 +68,7 @@
 }
 .twitterId{
   height: 25px;
-  width: 30px;
+  width: 35px;
   float: right;
 }
 
