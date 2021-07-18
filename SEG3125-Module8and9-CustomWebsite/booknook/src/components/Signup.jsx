@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from './Footer';
 
 function Signup() {
   return (
@@ -23,6 +24,7 @@ function Signup() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

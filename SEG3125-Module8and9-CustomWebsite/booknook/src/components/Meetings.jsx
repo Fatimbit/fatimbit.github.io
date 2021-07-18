@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from './Footer';
 
 function Meetings() {
   return (
@@ -23,6 +24,7 @@ function Meetings() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
