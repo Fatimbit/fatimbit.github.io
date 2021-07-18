@@ -4,6 +4,9 @@ import Footer from './Footer';
 function Contact() {
   return (
     <div className="contact">
+        <p>
+              Got any questions, requests, or concerns? Enter your information below and our team will get back to you as soon as possible!
+            </p>
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">

@@ -88,5 +88,21 @@
   width: 35px;
   float: right;
 }
-
+.book1photoClass{
+  width: 20%;
+  height: auto;
+}
+.book2photoClass{
+  width: 20%;
+  height: auto;
+}
+.book3photoClass{
+  width: 20%;
+  height: auto;
+}
+.p1{
+  font-style: italic;
+  background-color:#A07068;
+  color: white;
+}
 

@@ -4,6 +4,9 @@ import Footer from './Footer';
 function Signup() {
   return (
     <div className="signup">
+        <p>
+              Interested in becoming a member of Book Nook? Just fill in and submit your information to apply!
+            </p>
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
