@@ -15,7 +15,7 @@ function Meetings() {
             <h1 class="font-weight-light">Meetings</h1>
             <p>
               
-              Members of Book Nook are invited to join scheduled 7oom meetings. Please check your email for more info.
+              Members of Book Nook are invited to join scheduled 7oom meetings. If you are a book club member, please check your email for more info. If not, sign up now to gain access!
             </p>
           </div>
         </div>
