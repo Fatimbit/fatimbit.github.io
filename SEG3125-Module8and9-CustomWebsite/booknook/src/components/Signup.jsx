@@ -17,6 +17,8 @@ function Signup() {
           <p>Phone Number   <input type="text" placeholder="Enter Phone Number" name="phonenum"></input></p>
           <p>Email  <input type="text" placeholder="Enter" name="email"></input></p>
 
+          <button title="Click this button to submit your information">Submit </button> 
+
           </div>
           <div class="col-lg-5">
             <img src={signupphoto} className="signupphotoClass" alt="Welcome"></img> 

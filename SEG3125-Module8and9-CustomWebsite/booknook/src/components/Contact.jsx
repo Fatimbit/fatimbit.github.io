@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from './Footer';
+import contactusphoto from '../assets/contactus.PNG';
 
 function Contact() {
   return (
@@ -16,9 +17,11 @@ function Contact() {
           <p>Phone Number   <input type="text" placeholder="Enter Phone Number" name="phonenum"></input></p>
           <p>Email  <input type="text" placeholder="Enter" name="email"></input></p>
           <p>Message  <input type="text" placeholder="Message" name="message"></input></p>
+
+          <button title="Click this button to submit your information">Submit </button> 
           </div>
           <div class="col-lg-5">
-
+          <img src={contactusphoto} className="contactusphotoClass" alt="Welcome"></img> 
           </div>
         </div>
       </div>
