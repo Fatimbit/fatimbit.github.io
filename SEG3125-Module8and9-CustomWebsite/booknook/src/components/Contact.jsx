@@ -2,6 +2,7 @@ import React from "react";
 import Footer from './Footer';
 import contactusphoto from '../assets/contactus.PNG';
 
+
 function Contact() {
   return (
     <div className="contact">
@@ -14,7 +15,7 @@ function Contact() {
           <div class="col-lg-7">
           <p>First Name   <input type="text" placeholder="Enter First Name" name="firstname"></input></p>
           <p>Last Name   <input type="text" placeholder="Enter Last Name" name="lastname"></input></p>
-          <p>Phone Number   <input type="number" placeholder="Enter Phone Number" name="phonenum"></input></p>
+          <p>Phone Number: <input placeholder="(xxx)-xxx-xxxx" type="text" id="phone"></input></p>
           <p>Email  <input type="text" placeholder="Enter" name="email"></input></p>
           <p>Message  <input type="text" placeholder="Message" name="message"></input></p>
 

@@ -58,6 +58,7 @@ function Books() {
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.  <button title="Click this button to start reading this book!">Read Now </button> 
             </p>
+            <br></br>
           </div>
         </div>
       </div>
