@@ -6,7 +6,14 @@ import book3photo from '../assets/book3.png';
 function Books() {
   return (
     <div className="books">
+      <div className="booksheader">
+        <p>Looking for something specific? Use our search bar:   <input type="text" placeholder="Search..." name="searchbooks"></input></p>
+        
+
+        
+      </div>
       <div class="container">
+        
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
           <img src={book1photo} className="book1photoClass" alt="Welcome"></img> 
@@ -14,6 +21,7 @@ function Books() {
           </div>
           <div class="col-lg-5">
             <h2 class="font-weight-light">Percy Jackson & The Olympians The Lightening Thief</h2>
+            <h5 class="font-weight-light">by Rick Riordan</h5>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -26,6 +34,7 @@ function Books() {
           </div>
           <div class="col-lg-5">
             <h2 class="font-weight-light">Airman</h2>
+            <h5 class="font-weight-light">by Eoin Colfer</h5>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -42,6 +51,7 @@ function Books() {
 
           <div class="col-lg-5">
             <h2 class="font-weight-light">Artemis Fowl</h2>
+            <h5 class="font-weight-light">by Eoin Colfer</h5>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

@@ -7,3 +7,6 @@ Images of book covers in book sections came from:
 https://en.wikipedia.org/wiki/Airman_(novel)
 https://www.artemis-fowl.com/the-books/artemis-fowl/
 http://www.rallythereaders.com/2012/10/review-lightning-thief-by-rick-riordan.html
+
+Illustrations were created using:
+https://blush.design/collections/40G09koP55fYh86yZDnX/stuck-at-home

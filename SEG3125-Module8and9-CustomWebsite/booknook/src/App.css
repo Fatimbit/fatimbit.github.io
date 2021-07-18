@@ -105,4 +105,13 @@
   background-color:#A07068;
   color: white;
 }
+.booksheader{
 
+  font-style: italic;
+  background-color: #702820;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
