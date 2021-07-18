@@ -33,11 +33,38 @@ function Navigation(props) {
               </li>
               <li
                 class={`nav-item  ${
+                  props.location.pathname === "/meetings" ? "active" : ""
+                }`}
+              >
+                <Link class="nav-link" to="/meetings">
+                  Meetings
+                </Link>
+              </li>
+              <li
+                class={`nav-item  ${
+                  props.location.pathname === "/discussion" ? "active" : ""
+                }`}
+              >
+                <Link class="nav-link" to="/discussion">
+                  Discussion Board
+                </Link>
+              </li>
+              <li
+                class={`nav-item  ${
+                  props.location.pathname === "/signup" ? "active" : ""
+                }`}
+              >
+                <Link class="nav-link" to="/signup">
+                  Sign Up
+                </Link>
+              </li>
+              <li
+                class={`nav-item  ${
                   props.location.pathname === "/contact" ? "active" : ""
                 }`}
               >
                 <Link class="nav-link" to="/contact">
-                  Contact
+                  Contact Us
                 </Link>
               </li>
             </ul>
