@@ -3,7 +3,7 @@ import * as ReactBootStrap from "react-bootstrap";
 
 function Navbar(){
 return(
-<ReactBootStrap.Navbar collapseOnSelect expand="lg" >
+<ReactBootStrap.Navbar collapseOnSelect expand="lg" > 
 <ReactBootStrap.Container>
 <ReactBootStrap.Navbar.Brand href="#home">Book Nook</ReactBootStrap.Navbar.Brand>
 <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
