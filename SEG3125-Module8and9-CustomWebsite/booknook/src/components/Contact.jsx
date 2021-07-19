@@ -45,7 +45,7 @@ function Contact() {
           <p>Last Name   <input type="text" placeholder="Enter Last Name" name="lastname"></input></p>
           <p>Phone Number: <input placeholder="(xxx)-xxx-xxxx" type="text" id="phone" onChange={(e)=> validatePhone(e)}></input></p>
           <span style={{color:'red',}}>{phoneError}</span>
-          <p>Email  <input type="text" placeholder="Enter" name="email" onChange={(e)=> validateEmail(e)}></input></p>
+          <p>Email  <input type="text" placeholder="Enter Email" name="email" onChange={(e)=> validateEmail(e)}></input></p>
           <span style={{color:'red',}}>{emailError}</span>
           <p>Message  <input type="text" placeholder="Message" name="message"></input></p>
 
