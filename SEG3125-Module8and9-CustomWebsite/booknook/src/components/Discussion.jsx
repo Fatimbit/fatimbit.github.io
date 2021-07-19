@@ -78,7 +78,7 @@ function Discussion() {
 
               &emsp;<button title="Click this button to read the full review">Read More </button> 
               &emsp;<button title="Click this button to make a reply">Reply </button> 
-            </p>
+            </p><br></br>
             
           </div>
           <br></br>
