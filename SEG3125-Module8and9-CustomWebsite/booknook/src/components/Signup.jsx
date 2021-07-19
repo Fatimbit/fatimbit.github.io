@@ -1,9 +1,35 @@
-import React from "react";
+import React, {useState} from "react";
 import Footer from './Footer';
 import signupphoto from '../assets/signup.PNG';
-
+import validator from 'validator';
 
 function Signup() {
+  const[phoneError,setPhoneError]=useState('')
+  const validatePhone=(e)=>{
+    var a=e.target.value
+
+    var filter=/(?:\(\d{3}\))([-])\d{3}\1\d{4}/;
+    if(filter.test(a)){
+      setPhoneError("")}
+      else{
+        setPhoneError("Wrong format for phone number. \nIt must be in the format (xxx)-xxx-xxxx, where each x is a number.")
+      }    
+
+
+      
+  }
+
+  const[emailError,setEmailError]=useState('')
+  const validateEmail=(e)=>{
+    var email=e.target.value
+
+    if(validator.isEmail(email)){
+      setEmailError("")}
+      else{
+        setEmailError("Please enter a valid email address.")
+      }    
+
+  }
   return (
     <div className="signup">
         <br></br>
@@ -15,9 +41,11 @@ function Signup() {
           <div class="col-lg-7">
           <p>First Name   <input type="text" placeholder="Enter First Name" name="firstname"></input></p>
           <p>Last Name   <input type="text" placeholder="Enter Last Name" name="lastname"></input></p>
-          <p>Phone Number: <input placeholder="(xxx)-xxx-xxxx" type="text" id="phone" name="phonenum"></input></p>
-          <p>Email  <input type="text" placeholder="Enter" name="email"></input></p>
-
+          <p>Phone Number: <input placeholder="(xxx)-xxx-xxxx" type="text" id="phone" onChange={(e)=> validatePhone(e)}></input></p>
+          <span style={{color:'red',}}>{phoneError}</span>
+          <p>Email  <input type="text" placeholder="Enter" name="email" onChange={(e)=> validateEmail(e)}></input></p>
+          <span style={{color:'red',}}>{emailError}</span>
+          <br></br>
           <button title="Click this button to submit your information">Submit </button> 
 
           </div>

@@ -2,6 +2,7 @@ import React from "react";
 import Footer from './Footer';
 
 function Discussion() {
+
   return (
     <div className="discussion">
       <div class="container">
@@ -69,7 +70,16 @@ function Discussion() {
 
               &emsp;<button title="Click this button to read the full review">Read More </button> 
               &emsp;<button title="Click this button to make a reply">Reply </button> 
+            </p><br></br>
+            <p>
+            <h2 class="font-weight-light">Once upon a Time</h2>
+            <h5 class="font-weight-light">Alex T. posted June 23, 2021 1:00 AM</h5>
+              A lot of stories start off by saying "once upon a time". I hate this.
+
+              &emsp;<button title="Click this button to read the full review">Read More </button> 
+              &emsp;<button title="Click this button to make a reply">Reply </button> 
             </p>
+            
           </div>
           <br></br>
   
