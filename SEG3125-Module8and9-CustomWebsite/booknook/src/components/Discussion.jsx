@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from './Footer';
+import discussionphoto from '../assets/discussionboard.png';
 
 function Discussion() {
 
@@ -81,8 +82,13 @@ function Discussion() {
             </p><br></br>
             
           </div>
+          <div class="col-lg-5">
+          <img src={discussionphoto} className="discussionphotoClass" alt="Welcome"></img> 
+          </div>
           <br></br>
-  
+
+
+          
         </div>
       </div>
       <Footer />
