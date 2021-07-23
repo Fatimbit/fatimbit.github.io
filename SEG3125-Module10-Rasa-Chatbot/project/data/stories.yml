@@ -16,10 +16,10 @@ stories:
    steps:
    - intent: greet
    - action: utter_greet
-   - intent: unsubscribe
+   - intent: Unsubscribe
    - action: utter_unsubscribe
-   - intent: answer
-   - action: utter_answer
+   - intent: Explanation
+   - action: utter_explanation
    - intent: Thank You
    - action: utter_thankyou
    - intent: Goodbye

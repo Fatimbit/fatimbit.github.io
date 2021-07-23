@@ -42,7 +42,7 @@ responses:
         - text: |
                     Can you explain why?
 
-    utter_unsubscribe:
+    utter_explanation:
         - text: |
                   Ok, we understand
         - text: |

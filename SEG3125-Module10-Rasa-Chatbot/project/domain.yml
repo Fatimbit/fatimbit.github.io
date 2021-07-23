@@ -8,8 +8,8 @@ intents:
 - subscribe
 - Thank You
 - Goodbye
-- unsubscribe
-- answer
+- Unsubscribe
+- Explanation
 slots:
   email:
     type: unfeaturized
@@ -53,7 +53,7 @@ responses:
         - text: Why is that?
         - text: Can you explain why?
 
-  utter_answer:
+  utter_explanation:
         - text: |
                   Ok, we understand
         - text: No problem
