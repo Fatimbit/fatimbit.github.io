@@ -27,7 +27,6 @@ nlu:
 - intent: Thank You
   examples: |
     - Thanks
-    - thanks
     - Thank You
     - thank you
     - ty
