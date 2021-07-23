@@ -10,3 +10,17 @@ stories:
    - action: utter_thankyou
    - intent: Goodbye
    - action: utter_goodbye
+
+
+ - story: greet and unsubscribe
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: unsubscribe
+   - action: utter_unsubscribe
+   - intent: answer
+   - action: utter_answer
+   - intent: Thank You
+   - action: utter_thankyou
+   - intent: Goodbye
+   - action: utter_goodbye

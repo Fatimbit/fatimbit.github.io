@@ -8,6 +8,8 @@ intents:
 - subscribe
 - Thank You
 - Goodbye
+- unsubscribe
+- answer
 slots:
   email:
     type: unfeaturized
@@ -44,6 +46,19 @@ responses:
                 Bye!
         - text: 
                 byeeeee
+  utter_unsubscribe:
+        - text: |
+                  Why do you want to unsubscribe?
+        - text: How come?
+        - text: Why is that?
+        - text: Can you explain why?
+
+  utter_answer:
+        - text: |
+                  Ok, we understand
+        - text: No problem
+        - text: Okay, we'll take care of that 
+        - text: Okay, don't worry about it
 
 actions:
 - '...'

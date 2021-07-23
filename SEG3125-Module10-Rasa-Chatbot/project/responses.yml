@@ -31,3 +31,25 @@ responses:
                 Bye!
         - text: |
                 byeeeee
+
+    utter_unsubscribe:
+        - text: |
+                  Why do you want to unsubscribe?
+        - text: |
+                  How come?
+        - text: |
+                     Why is that?
+        - text: |
+                    Can you explain why?
+
+    utter_unsubscribe:
+        - text: |
+                  Ok, we understand
+        - text: |
+                  No problem
+        - text: |
+                  Okay, we'll take care of that
+        - text: |
+                  Okay, don't worry about it
+
+

@@ -39,3 +39,17 @@ nlu:
     - bye
     - okay bye
     - bye bye!
+
+- intent: unsubscribe
+  examples: |
+    - I want to unsunscribe
+    - Can you unsubscribe me from the newsletter?
+    - Can you stop sending me the newsletter?
+    - I want to stop getting the newsletter
+
+- intent: answer
+  examples: |
+    - I don't like it
+    - Not interested anymore
+    - No time
+    - Too many of them
