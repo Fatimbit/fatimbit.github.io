@@ -6,6 +6,8 @@ intents:
 - greet
 - inform
 - subscribe
+- Thank You
+- Goodbye
 slots:
   email:
     type: unfeaturized
@@ -23,10 +25,30 @@ responses:
   - text: |
       Check your inbox at {email} in order to finish subscribing to the newsletter!
   - text: You're all set! Check your inbox at {email} to confirm your subscription.
+  utter_thankyou:
+        - text: |
+                You're welcome!
+        - text:  
+                Glad I could help!
+        - text:    
+                 No problem!
+        - text:  
+                    Yw!
+
+  utter_goodbye:
+        - text: |
+                    Bye.
+        - text: 
+            Goodbye!
+        - text: 
+                Bye!
+        - text: 
+                byeeeee
+
 actions:
 - '...'
 - utter_greet
-- utter_subscribed
+- utter_goodbye
 forms:
   newsletter_form:
     required_slots:

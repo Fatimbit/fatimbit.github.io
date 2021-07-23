@@ -6,6 +6,10 @@ nlu:
     - Hallo
     - Good day
     - Good morning
+    - Hello
+    - Good afternoon
+    - Good evening
+    - Yo
 
 - intent: subscribe
   examples: |
@@ -19,3 +23,19 @@ nlu:
     - random@example.com
     - Please send it to anything@example.com
     - Email is something@example.com
+
+- intent: Thank You
+  examples: |
+    - Thanks
+    - thanks
+    - Thank You
+    - thank you
+    - ty
+    - tysm
+
+- intent: Goodbye
+  examples: |
+    - Goodbye
+    - bye
+    - okay bye
+    - bye bye!
